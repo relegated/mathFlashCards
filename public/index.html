@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>Math Flash Cards</title>
+        <script src="flashCard.js"></script>
+        <script src="cardDeck.js"></script>
+        <script src="quiz.js"></script>
+    </head>
+    <body>
+        <h1>Welcome to Math Flash Cards!</h1>
+        <h2>Settings</h2>
+        <label for="numOfQuestions">Number of Questions:</label>
+        <input id="numOfQuestions"><br>
+        <label for="maximumOperator">Operators (+, -, *, /) including up to</label>
+        <select name="operators" id="operators">
+            <option value="0">+</option>
+            <option value="1">-</option>
+            <option value="2">*</option>
+            <option value="3">/</option>
+        </select><br>
+        <button id="startQuizButton" onclick="startQuiz()">Start Quiz!</button>
+    </body>
+</html>
